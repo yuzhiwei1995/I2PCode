@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : i2p.i2p-master.apps : i2ptunnel.war">
+    <output-path>$PROJECT_DIR$/apps/i2ptunnel/build/libs</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="i2ptunnel.war">
+      <element id="artifact" artifact-name="Gradle : i2p.i2p-master.apps : i2ptunnel.war (exploded)" />
+    </root>
+  </artifact>
+</component>

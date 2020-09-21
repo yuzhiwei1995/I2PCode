@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : i2p.i2p-master.apps : susidns.war">
+    <output-path>$PROJECT_DIR$/apps/susidns/build/libs</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="susidns.war">
+      <element id="artifact" artifact-name="Gradle : i2p.i2p-master.apps : susidns.war (exploded)" />
+    </root>
+  </artifact>
+</component>

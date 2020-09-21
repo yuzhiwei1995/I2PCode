@@ -1,0 +1,32 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : i2p.i2p-master.apps : routerconsole.war (exploded)">
+    <output-path>$PROJECT_DIR$/apps/routerconsole/build/libs/exploded/routerconsole.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/apps/routerconsole/build/libs/exploded/routerconsole.war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="i2p.i2p-master.apps.routerconsole.main/web/Web Gradle : routerconsole.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="i2p.i2p-master.apps.routerconsole.main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/apps/routerconsole/out/production/resources" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="i2p.i2p-master-router.jar">
+            <element id="module-output" name="i2p.i2p-master.router.main" />
+            <element id="dir-copy" path="$PROJECT_DIR$/router/out/production/resources" />
+          </element>
+          <element id="archive" name="i2p.i2p-master-core.jar">
+            <element id="module-output" name="i2p.i2p-master.core.main" />
+            <element id="dir-copy" path="$PROJECT_DIR$/core/out/production/resources" />
+          </element>
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

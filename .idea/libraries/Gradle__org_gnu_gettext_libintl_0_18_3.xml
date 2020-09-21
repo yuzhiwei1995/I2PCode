@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.gnu.gettext:libintl:0.18.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.gnu.gettext/libintl/0.18.3/fcfca9e3bfc02baa140cf58e5c070633eb68b0b6/libintl-0.18.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.gnu.gettext/libintl/0.18.3/d84b4aa078349a5816942aefb48d22e3e587c00b/libintl-0.18.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,32 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : i2p.i2p-master.apps : i2ptunnel.war (exploded)">
+    <output-path>$PROJECT_DIR$/apps/i2ptunnel/build/libs/exploded/i2ptunnel.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/apps/i2ptunnel/build/libs/exploded/i2ptunnel.war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="i2p.i2p-master.apps.i2ptunnel.main/web/Web Gradle : i2ptunnel.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="i2p.i2p-master.apps.i2ptunnel.main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/apps/i2ptunnel/out/production/resources" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="i2p.i2p-master.apps-ministreaming.jar">
+            <element id="module-output" name="i2p.i2p-master.apps.ministreaming.main" />
+            <element id="dir-copy" path="$PROJECT_DIR$/apps/ministreaming/out/production/resources" />
+          </element>
+          <element id="archive" name="i2p.i2p-master-core.jar">
+            <element id="module-output" name="i2p.i2p-master.core.main" />
+            <element id="dir-copy" path="$PROJECT_DIR$/core/out/production/resources" />
+          </element>
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
