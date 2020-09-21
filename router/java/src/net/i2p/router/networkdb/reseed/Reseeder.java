@@ -127,7 +127,7 @@ public class Reseeder {
     public static final String PROP_PROXY_HOST = "router.reseedProxyHost";
     public static final String PROP_PROXY_PORT = "router.reseedProxyPort";
 
-    // I2P Bridge网桥,端口，IP和传输协议
+    // I2P Bridge port ip transport
     public static final String PROP_BRIDGE_HOST = "router.reseedBridgeHost";
     public static final String PROP_BRIDGE_PORT = "router.reseedBridgePort";
     public static final String PROP_BRIDGE_PLUGGABLE_TRANSPORT = "router.reseedBridgePT";

@@ -2,10 +2,10 @@
 # Use git add -f foo.jar to ignore this ignore list
 
 # generated release files
-*.exe
+# *.exe
 *.[gx]z
 *.bz2
-*.[rwjt]ar
+# *.[rwjt]ar
 *.sig
 *.su[d23]
 *.deb
@@ -24,7 +24,7 @@ classes/
 dist/
 /installer/resources/locale/mo
 /tmp
-/apps/jetty/jettylib
+#/apps/jetty/jettylib
 *_jsp.java
 *.class
 
