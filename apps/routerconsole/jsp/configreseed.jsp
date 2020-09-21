@@ -179,7 +179,12 @@
 <td><input name="sport" type="text" size="5" maxlength="5" value="<jsp:getProperty name="reseedHelper" property="sport" />" ></td></tr>
 
 <tr><td align="right"><b><%=intl._t("Bridge Line")%>:</b></td>
-    <td><textarea name="bridgeline" type="text" value="<jsp:getProperty name="reseedHelper" property="bridgeline" />"></textarea></td></tr>
+    <td>
+        <textarea name="bridgeline" value="<jsp:getProperty name="reseedHelper" property="bridgeline" />">
+
+        </textarea>
+    </td>
+</tr>
 
 <!-- not fully implemented, not necessary?
 <tr><td align="right"><b><%=intl._t("Use HTTPS Proxy Authorization?")%></b></td>
